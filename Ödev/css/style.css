@@ -1,0 +1,100 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    text-decoration: none !important;
+    font-family: "Montserrat", serif;
+}
+
+.navbar {
+    font-family: "Oxanium", serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.baslik {
+    font-size: 80px;
+}
+
+.iconSearch {
+    margin: -55px;
+}
+
+.searchInput {
+    width: 80%;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.about-image {
+    border-radius: 50%;
+}
+
+#social .card {
+    border: none;
+    box-shadow: 4px 4px 4px rgb(228, 228, 228);
+}
+
+#courses .col-12 .bi {
+    color: green;
+}
+
+#courses .card {
+    border-top: none;
+    box-shadow: 4px 4px 4px rgb(228, 228, 228);
+}
+
+#teachers .teachers {
+    display: flex;
+    justify-content: space-between;
+}
+
+#subscribe button {
+    width: 450px;
+    border-radius: 30px;
+}
+
+#about button {
+    border-radius: 30px;
+}
+
+#categories button {
+    border-radius: 30px;
+}
+
+#courses button {
+    border-radius: 30px;
+}
+
+#subscribe {
+    padding: 100px 0px;
+}
+
+#footer a {
+    color: gray;
+}
+
+#footer h2 {
+    font-family: "Oxanium", serif;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    /* Renk */
+}
+
+#reviews img {
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#teachers img {
+    padding-bottom: 16px;
+}
